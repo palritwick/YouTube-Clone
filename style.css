@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+html,body{
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    line-height: 1.4;
+}
+navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    
+}
+.logo img{
+    width: 150px;
+    height: 40px;
+    cursor: pointer;
+}
+.center-nav{
+    display: flex;
+}
+.search{
+    display: flex;
+}
+.search input{
+    min-width: 500px;
+    padding: 12px 20px;
+    border: 0.5px solid gray;
+    font-size: medium;
+}
+.seach button{
+    border: none;
+    width: 100px;
+    height: 100px;
+    
+}
+.mic{
+    padding: 10px;
+    border-radius: 50%;
+    background:  rgb(221, 218, 218);
+    display: grid;
+    place-items: center;
+    margin-left: 10px;
+}
+.mic img{
+    width: 30px;
+    cursor: pointer;
+}
+.side-nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    cursor: pointer;
+}
+.side-nav .myprofile{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    
+}
+.tags{
+    display: flex;
+    padding: 10px 20px;
+    gap: 5px;
+    border-top: 1px solid rgb(217, 214, 214);
+}
+.tag{
+    padding: 5px 15px;
+    border-radius: 20px;
+    border: 1px solid rgb(22, 22, 22);
+    cursor: pointer;
+}
+.dark{
+    background: black;
+    color: white;
+}
+.light{
+    background: white;
+    color: black;
+}
+
+/* Aside Menu Home Shorts section */
+.aside{
+    display: flex;
+}
+.bars{
+    display: flex;
+    padding: 15px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+.container{
+    display: flex;
+}
+.bars img,p{
+    cursor: pointer;
+}
+
+.main-content{
+    width: 100%;
+}
+/* photo and ads are here */
+main{
+    min-height: 100vh;
+    margin: 10px;
+    background: rgb(221, 218, 218);
+}
+.card img{
+    width: 320px;
+    height: 200px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.setLogo img{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: 0.5px solid black;
+    cursor: pointer;
+}
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(320px,1vh));
+    flex-direction: row;
+    gap: 20px;
+}
+.card{
+    padding: 10px;
+    max-width: 320px;
+    display: flex;
+    flex-direction: column;
+}
+.card-content{
+    padding-top: 10px;
+    display: flex;
+    gap: 5px;
+}
+.card h3{
+    font-size: 15px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+}
+.channel-name{
+    font-size: 15px;
+    font-weight: bold;
+}
+.content-status{
+    display: flex;
+    font-size: 14px;
+    gap: 10px;
+}
+.dots img{
+    width: 30px;
+    height: 30px;  
+}
