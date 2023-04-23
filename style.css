@@ -17,8 +17,8 @@ navbar{
     
 }
 .logo img{
-    width: 150px;
-    height: 40px;
+    width: 145px;
+    height: 35px;
     cursor: pointer;
 }
 .center-nav{
@@ -33,8 +33,15 @@ navbar{
     border: 0.5px solid gray;
     font-size: medium;
 }
+/* .search input:hover,
+.search input .active{
+    min-width: 500px;
+    padding: 12px 20px;
+    border: 0.5px solid blue;
+    font-size: medium;
+} */
 .seach button{
-    border: none;
+    border: navy;
     width: 100px;
     height: 100px;
     
@@ -48,7 +55,7 @@ navbar{
     margin-left: 10px;
 }
 .mic img{
-    width: 30px;
+    width: 24px;
     cursor: pointer;
 }
 .side-nav{
@@ -84,6 +91,10 @@ navbar{
     background: white;
     color: black;
 }
+.light:hover{
+    background: rgb(225, 224, 224);
+    color: black;
+}
 
 /* Aside Menu Home Shorts section */
 .aside{
@@ -91,7 +102,7 @@ navbar{
 }
 .bars{
     display: flex;
-    padding: 15px;
+    padding: 3px;
     flex-direction: column;
     align-items: center;
     gap: 10px;
@@ -100,10 +111,10 @@ navbar{
 .container{
     display: flex;
 }
-.bars img,p{
+.bars img{
     cursor: pointer;
+    margin-top: 8px;
 }
-
 .main-content{
     width: 100%;
 }
@@ -113,24 +124,39 @@ main{
     margin: 10px;
     background: rgb(221, 218, 218);
 }
-.card img{
+.card .img{
     width: 320px;
     height: 200px;
     border-radius: 15px;
     cursor: pointer;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+.card .img:hover{
+    width: 330px;
+    height: 210px;
+    border-radius: 15px;
+    cursor: pointer;
 }
 .setLogo img{
-    width: 35px;
-    height: 35px;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
     border: 0.5px solid black;
     cursor: pointer;
 }
+.setLogo{
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+}
 .card-container{
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(320px,1vh));
-    flex-direction: row;
-    gap: 20px;
+    margin: 20px;
+    margin-bottom: 0;
+    gap: 22px;
 }
 .card{
     padding: 10px;
