@@ -139,6 +139,11 @@ main{
     border-radius: 15px;
     cursor: pointer;
 }
+.card .live {
+    width: 40px;
+    height: 25px;
+    border: none;
+}
 .setLogo img{
     width: 40px;
     height: 40px;
