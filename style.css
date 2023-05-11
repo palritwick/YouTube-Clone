@@ -49,7 +49,15 @@ navbar{
 .mic{
     padding: 10px;
     border-radius: 50%;
-    background:  rgb(221, 218, 218);
+    background:  #fff;
+    display: grid;
+    place-items: center;
+    margin-left: 10px;
+}
+.mic:hover{
+    padding: 10px;
+    border-radius: 50%;
+    background:  rgb(209, 208, 208);
     display: grid;
     place-items: center;
     margin-left: 10px;
@@ -111,6 +119,11 @@ navbar{
 .container{
     display: flex;
 }
+
+.bar,.shorts,.subscription,.library{
+    width: 30px;
+    height: 30px;
+}
 .bars img{
     cursor: pointer;
     margin-top: 8px;
@@ -130,7 +143,7 @@ main{
     border-radius: 15px;
     cursor: pointer;
     transition-property: all;
-    transition-duration: 1s;
+    transition-duration: .2s;
     transition-timing-function: ease-in-out;
 }
 .card .img:hover{
